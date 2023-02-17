@@ -55,6 +55,8 @@ def load_data():
         print(f'Número de posts com assuntos r/{assunto}:{len(posts)}',
               f'\nUm dos posts extraídos: {posts[0][:600]}...\n', "-" * 80 + '\n')
 
+    
     return data, labels
 
 
+load_data()
